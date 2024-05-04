@@ -1,0 +1,3 @@
+numberOfDarts: 3
+location: "home"
+logFolder: "~/Github/darts/logs/"
