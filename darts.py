@@ -134,13 +134,7 @@ def main():
 
     command = args.command
 
-    if command == "div":
-        div_darts()
-    elif command == "301":
-        too_darts()
-    elif command == "501":
-        foo_darts()
-
+    global practiceTime
     if args.time:
         try:
             # Parse the time argument if provided
@@ -152,6 +146,13 @@ def main():
                 practiceTime *= 360
         except ValueError:
             print("Invalid time argument. Please provide time in the format '5min'.")
+
+    if command == "div":
+        div_darts()
+    elif command == "301":
+        too_darts()
+    elif command == "501":
+        foo_darts()
 
 if __name__ == "__main__":
     main()

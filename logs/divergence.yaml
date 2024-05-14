@@ -1,0 +1,40 @@
+2405041906_Saturday:
+  Duration: 300.0
+  Location: home
+  Maximum Divergence: 17
+  Median Divergence: 6.944444444444445
+  Minimum Divergence: 1
+  Number of Darts: 3
+  Rounds: 18
+2405041915_Saturday:
+  Duration: '300.000'
+  Location: home
+  Maximum Divergence: 16
+  Median Divergence: 7.611111111111111
+  Minimum Divergence: 2
+  Number of Darts: 3
+  Rounds: 18
+2405041921_Saturday:
+  Duration: '300.000'
+  Location: home
+  Maximum Divergence: 20
+  Median Divergence: 7.388888888888889
+  Minimum Divergence: 2
+  Number of Darts: 3
+  Rounds: 18
+2405051226_Sunday:
+  Duration: '900.000'
+  Location: home
+  Maximum Divergence: 20
+  Median Divergence: 8.425
+  Minimum Divergence: 2
+  Number of Darts: 3
+  Rounds: 40
+2405051824_Sunday:
+  Duration: '56.830'
+  Location: home
+  Maximum Divergence: 12
+  Median Divergence: 6.333333333333333
+  Minimum Divergence: 3
+  Number of Darts: 3
+  Rounds: 3

@@ -1,0 +1,63 @@
+#+TITLE: Darts
+#+DESCRIPTION: A 15 minute project
+#+AUTHOR: Lamprinos Chatziioannou
+#+FILETAGS:
+
+I like throwing darts every now and then and getting better is
+something that is both a journey and a destination: that is the reason
+why I created this small (less than 15-20 minutes) script:
+
+- It currently has only one game mode in it, but it is exactly what I
+  wanted it to be. See more in [[*Divergence][Divergence]].
+
+* Divergence
+#+begin_comment
+This is the part that took the most time for me.
+#+end_comment
+
+Instead of chasing points, I decided to opt for accuracy: meaning that
+if I want to hit X, being close to X is more important than hitting Y,
+giving me more points. In my mind this way, slowly building precision
+and technique one may also allow themselves to build on efficiently
+getting triplets and doubles.
+
+#+NAME: Starting divergence
+#+begin_src bash
+./darts.py div # optional: --time 5min
+#+end_src
+
+So what is this mode?
+
+** Calculating divergence
+Let's say that you want to hit 20 (60 being a common practice goal),
+and you hit 5. Then you have a divergence of 1 from your goal, but if
+you hit 19, you have a divergence of 9 (?). 
+- After shooting all 3 darts, I add their divergence and get
+  cumulative divergence
+
+** Selecting targets
+When I play in this practice mode I try the following:
+1. Start at 20, shooting 3 darts
+2. If my cumulative divergence(Y from now on) is more than 5[fn:1], I set Y
+   as the goal of my next round. Otherwise Y = 20.
+3. Shoot 3 darts at Y. Go to 2.
+ 
+* Configuration
+There is no need to describe it thoroughly, it is self-explanatory.
+- [[file:darts.yaml][Check darts.yaml]]
+
+* More features
+The project is most probably going to remain stagnant for a long
+period of time, just for a simplistic reason: I currently do not have
+access to a dart board. I'll be back on it after the summer exam
+period is over.
+
+** Graphs
+Having a log was a conscious decision: maybe in the future I will use
+a little bit of graphing to indicate improvements/progress.
+
+* Footnotes
+
+[fn:1] This is 100% arbitrary, it is just that I like doing it that
+way. No reason for you to follow the same. One could just keep
+shooting 20s all the time.
