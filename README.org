@@ -10,6 +10,9 @@ why I created this small (less than 15-20 minutes) script:
 - It currently has only one game mode in it, but it is exactly what I
   wanted it to be. See more in [[*Divergence][Divergence]].
 
+* On Competitive Modes
+I have not added competitive modes, because websites just like: [[https://darts-scoring.com/play/][this]] exist online, making it much easier (and more elegant), than calling a cli script. 
+
 * Divergence
 #+begin_comment
 This is the part that took the most time for me.
